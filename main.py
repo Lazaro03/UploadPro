@@ -647,7 +647,7 @@ def onmessage(update,bot:ObigramClient):
             start_msg+= '🙂Si necesita ayuda o información utilice:\n'
             start_msg+= '/help\n'
             start_msg+= '/about\n'
-            start_msg+= '👤O escríbale a mi Admin @Michel1203👤
+            start_msg+= '👤O escríbale a mi Admin @Michel1203👤\n'
             start_msg+= '🙂Si usted desea añadir la barra de comandos al menú de acceso rápido de su bot envíe /commands.\n\n'
             start_msg+= '😁𝚀𝚞𝚎 𝚍𝚒𝚜𝚏𝚛𝚞𝚝𝚎 𝚐𝚛𝚊𝚗𝚍𝚎𝚖𝚎𝚗𝚝𝚎 𝚜𝚞 𝚎𝚜𝚝𝚊𝚍𝚒𝚊😁.\n'
             bot.editMessageText(message,start_msg)
